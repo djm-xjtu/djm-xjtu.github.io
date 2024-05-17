@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://youngforest.github.io/en</id>
+    <title>YoungForest&#39;s blog • Posts by &#34;ireland&#34; category</title>
+    <link href="https://youngforest.github.io/en" />
+    <updated>2024-01-12T11:58:52.000Z</updated>
+    <category term="France visa" />
+    <category term="Schengen" />
+    <category term="Side Project" />
+    <category term="Ireland" />
+    <category term="IB" />
+    <category term="Bonds" />
+    <category term="Dublin" />
+    <category term="Life" />
+    <category term="Hennge" />
+    <category term="Competitive Programming" />
+    <category term="Blog" />
+    <category term="Windows" />
+    <category term="C++" />
+    <category term="hash" />
+    <category term="unordered_map" />
+    <entry>
+        <id>https://youngforest.github.io/en/2024/01/12/Actions-After-Address-Change-in-Ireland/</id>
+        <title>Actions After Address Change in Ireland</title>
+        <link rel="alternate" href="https://youngforest.github.io/en/2024/01/12/Actions-After-Address-Change-in-Ireland/"/>
+        <content type="html">&lt;p&gt;As an new immigrant in Ireland, it is very common that you move every year. It is painful to move. It makes the situation worse because many things in Ireland are related to your address. This post summary the actions you need to take after you move to a new address. It would prevent you from missing any important mail, which could be posted to your previous address if you forget to change your information somewhere.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bank accounts.&lt;/li&gt;
+&lt;li&gt;Broker accounts.&lt;/li&gt;
+&lt;li&gt;Pension accounts.&lt;/li&gt;
+&lt;li&gt;Medical insurance.&lt;/li&gt;
+&lt;li&gt;Revenue.&lt;/li&gt;
+&lt;li&gt;Car registration.&lt;/li&gt;
+&lt;li&gt;Your employer’s portal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For some accounts which are related to your job, like pension, Company stocks, you need to contact your HR to change your address.&lt;/p&gt;
+</content>
+        <category term="Dublin" />
+        <category term="Life" />
+        <updated>2024-01-12T11:58:52.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://youngforest.github.io/en/2023/09/20/Ireland-France-visa-monitor/</id>
+        <title>Ireland France visa monitor</title>
+        <link rel="alternate" href="https://youngforest.github.io/en/2023/09/20/Ireland-France-visa-monitor/"/>
+        <content type="html">&lt;p&gt;It is a painful process to book an France visa appointment. A tool was implemented to notify you when a new slot is released. As a 9 years of expereinced software engineer, I finally beat the scalpers and got my France visa appointment by the script. A software engineer never bows to scalpers.&lt;/p&gt;
+&lt;p&gt;Currently, only Dublin Ireland appointments are supported. Please read the instructions docs to learn how to use it: &lt;a href=&#34;https://docs.google.com/document/d/1uHJCxINt9Sb0f1HHybCFhxkmpzxRURilsxqD6OQLpQ4/edit?usp=sharing&#34;&gt;Google Docs&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="France visa" />
+        <category term="Schengen" />
+        <category term="Side Project" />
+        <updated>2023-09-20T13:13:01.000Z</updated>
+    </entry>
+</feed>

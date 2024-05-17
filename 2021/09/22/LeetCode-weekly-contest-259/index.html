@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>LeetCode weekly contest 259 | YoungForest&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="LeetCode weekly contest 259  This weekend is Chinese mid-autumn festival, which is a tradition day to got together with family. I am a country boy. My family live in another province, Shanxi. It is ab">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LeetCode weekly contest 259">
+<meta property="og:url" content="https://youngforest.github.io/en/2021/09/22/LeetCode-weekly-contest-259/index.html">
+<meta property="og:site_name" content="YoungForest&#39;s blog">
+<meta property="og:description" content="LeetCode weekly contest 259  This weekend is Chinese mid-autumn festival, which is a tradition day to got together with family. I am a country boy. My family live in another province, Shanxi. It is ab">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-09-22T19:31:19.000Z">
+<meta property="article:modified_time" content="2024-05-17T10:22:22.361Z">
+<meta property="article:author" content="YoungForest">
+<meta property="article:tag" content="Competitive Programming">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="YoungForest&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/en/css/style.css">
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '[object Object]', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/en/" id="logo">YoungForest&#39;s blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/en/">Home</a>
+        
+          <a class="main-nav-link" href="/en/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/en/%20%7C%7C%20fa%20fa-home">home</a>
+        
+          <a class="main-nav-link" href="/en/about/%20%7C%7C%20fa%20fa-user">about</a>
+        
+          <a class="main-nav-link" href="/en/tags/%20%7C%7C%20fa%20fa-tags">tags</a>
+        
+          <a class="main-nav-link" href="/en/categories/%20%7C%7C%20fa%20fa-th">categories</a>
+        
+          <a class="main-nav-link" href="/en/archives/%20%7C%7C%20fa%20fa-archive">archives</a>
+        
+          <a class="main-nav-link" href="https://youngforest.github.io/ || fa fa-language">中文</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://youngforest.github.io/en"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-LeetCode-weekly-contest-259" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/en/2021/09/22/LeetCode-weekly-contest-259/" class="article-date">
+  <time datetime="2021-09-22T19:31:19.000Z" itemprop="datePublished">2021-09-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/en/categories/LeetCode/">LeetCode</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      LeetCode weekly contest 259
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a target="_blank" rel="noopener" href="https://leetcode.com/contest/weekly-contest-259/">LeetCode weekly contest 259</a></p>
+<p>This weekend is Chinese mid-autumn festival, which is a tradition day to got together with family. I am a country boy. My family live in another province, Shanxi. It is about 1,000 km far from Beijing, where I studied and work. Because of that, I cannot visit my parents. Fortunately, my girlfriend grow in Beijing. Her parents invite us to their home for lunch and dinner. They prepared much seafood because their daughter loves it. This is my excuse for not attending this contest.<br>I solved those problems after contest and share my intuitions and solutions now.</p>
+<p>So no score board here.</p>
+<h2 id="2011-Final-Value-of-Variable-After-Performing-Operations"><a href="#2011-Final-Value-of-Variable-After-Performing-Operations" class="headerlink" title="2011. Final Value of Variable After Performing Operations"></a>2011. Final Value of Variable After Performing Operations</h2><p>Sign-in question. A trick, which could reduce 4 operations to 2, is that the middle character (operations[i][1]) decides increment or decrement. With this, we could simplify our code.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">finalValueAfterOperations</span><span class="params">(vector&lt;string&gt;&amp; operations)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">const</span> <span class="keyword">auto</span>&amp; s : operations) &#123;</span><br><span class="line">            <span class="keyword">if</span> (s[<span class="number">1</span>] == <span class="string">&#x27;-&#x27;</span>) &#123;</span><br><span class="line">                --ans;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                ++ans;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>Time complexity: O(N), where <code>N = operations.size()</code><br>Space complexity: O(1).</p>
+<h2 id="2012-Sum-of-Beauty-in-the-Array"><a href="#2012-Sum-of-Beauty-in-the-Array" class="headerlink" title="2012. Sum of Beauty in the Array"></a>2012. Sum of Beauty in the Array</h2><p>For score is 2, compare <code>nums[i]</code> with the largest number before <code>i</code> and the smallest number after <code>i</code>. We maintain a variable to record and update <code>the largest number</code> and a pre-calculate array to record <code>the smallest number</code>.</p>
+<p>For score is 1, just compare <code>nums[i]</code> with <code>nums[i-1]</code> and <code>nums[i+1]</code>.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">sumOfBeauties</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="type">const</span> <span class="type">int</span> n = nums.<span class="built_in">size</span>();</span><br><span class="line">        <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">smallestNumber</span><span class="params">(n + <span class="number">1</span>)</span></span>;</span><br><span class="line">        smallestNumber[n] = numeric_limits&lt;<span class="type">int</span>&gt;::<span class="built_in">max</span>();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = n<span class="number">-1</span>; i &gt;= <span class="number">0</span>; --i) &#123;</span><br><span class="line">            smallestNumber[i] = <span class="built_in">min</span>(nums[i], smallestNumber[i+<span class="number">1</span>]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> largestNumber = nums[<span class="number">0</span>];</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n - <span class="number">1</span>; ++i) &#123;</span><br><span class="line">            <span class="type">int</span> score = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">if</span> (largestNumber &lt; nums[i] &amp;&amp; nums[i] &lt; smallestNumber[i+<span class="number">1</span>]) &#123;</span><br><span class="line">                score = <span class="number">2</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (nums[i<span class="number">-1</span>] &lt; nums[i] &amp;&amp; nums[i] &lt; nums[i+<span class="number">1</span>]) &#123;</span><br><span class="line">                score = <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            largestNumber = <span class="built_in">max</span>(largestNumber, nums[i]);</span><br><span class="line">            ans += score;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>Time complexity: O(n),<br>Space complexity: O(n).</p>
+<h2 id="2013-Detect-Squares"><a href="#2013-Detect-Squares" class="headerlink" title="2013. Detect Squares"></a>2013. Detect Squares</h2><p>Attention: <strong>Square</strong> instead of <strong>rectangle</strong>.<br>I wasted a lot of time because of this misunderstanding. Luckily, it is not on real contest.</p>
+<p>Use <code>unordered_map&lt;int, map&lt;int, int&gt;&gt;</code> to store all points.<br>When count squares, we iterate every row and find the width, then with width find the other two points.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">DetectSquares</span> &#123;</span><br><span class="line">    <span class="type">static</span> <span class="keyword">constexpr</span> <span class="type">int</span> MX = <span class="number">1001</span>;</span><br><span class="line">    unordered_map&lt;<span class="type">int</span>, map&lt;<span class="type">int</span>, <span class="type">int</span>&gt;&gt; points;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">DetectSquares</span>() &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">add</span><span class="params">(vector&lt;<span class="type">int</span>&gt; point)</span> </span>&#123;</span><br><span class="line">        ++points[point[<span class="number">0</span>]][point[<span class="number">1</span>]];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">count</span><span class="params">(vector&lt;<span class="type">int</span>&gt; point)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// iterate in Y axis, iterate in X axis</span></span><br><span class="line">        <span class="comment">// time complexity: n</span></span><br><span class="line">        <span class="type">const</span> <span class="type">int</span> x = point[<span class="number">0</span>];</span><br><span class="line">        <span class="type">const</span> <span class="type">int</span> y = point[<span class="number">1</span>];</span><br><span class="line">        <span class="type">const</span> <span class="keyword">auto</span>&amp; row = points[x];</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">const</span> <span class="keyword">auto</span>&amp; p : points) &#123;</span><br><span class="line">            <span class="keyword">if</span> (p.first == x) <span class="keyword">continue</span>;</span><br><span class="line">            <span class="type">const</span> <span class="keyword">auto</span>&amp; row2 = p.second;</span><br><span class="line">            <span class="keyword">auto</span> it = row2.<span class="built_in">find</span>(y);</span><br><span class="line">            <span class="keyword">if</span> (it != row2.<span class="built_in">end</span>()) &#123;</span><br><span class="line">                <span class="comment">// find D</span></span><br><span class="line">                <span class="type">const</span> <span class="type">int</span> width = <span class="built_in">abs</span>(p.first - x);</span><br><span class="line">                <span class="keyword">for</span> (<span class="type">int</span> i : &#123;+width, -width&#125;) &#123;</span><br><span class="line">                    <span class="keyword">auto</span> itB = row.<span class="built_in">find</span>(y + i);</span><br><span class="line">                    <span class="keyword">auto</span> itC = row2.<span class="built_in">find</span>(y + i);</span><br><span class="line">                    <span class="keyword">if</span> (itB != row.<span class="built_in">end</span>() &amp;&amp; itC != row2.<span class="built_in">end</span>()) &#123;</span><br><span class="line">                        ans += it-&gt;second * itB-&gt;second * itC -&gt; second;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Your DetectSquares object will be instantiated and called as such:</span></span><br><span class="line"><span class="comment"> * DetectSquares* obj = new DetectSquares();</span></span><br><span class="line"><span class="comment"> * obj-&gt;add(point);</span></span><br><span class="line"><span class="comment"> * int param_2 = obj-&gt;count(point);</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
+
+<p>Time complexity:</p>
+<ul>
+<li>DetectSquares: O(1),</li>
+<li>add: O(log n),</li>
+<li>count: O(n log n).<br>Space complexity: O(n).<br>Where n = points number.</li>
+</ul>
+<h2 id="2014-Longest-Subsequence-Repeated-k-Times"><a href="#2014-Longest-Subsequence-Repeated-k-Times" class="headerlink" title="2014. Longest Subsequence Repeated k Times"></a>2014. Longest Subsequence Repeated k Times</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://youngforest.github.io/en/2021/09/22/LeetCode-weekly-contest-259/" data-id="clwakihzk000j0ekxahooftfx" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/Competitive-Programming/" rel="tag">Competitive Programming</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/en/2021/09/22/LeetCode-biweekly-contest-61/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          LeetCode biweekly contest 61
+        
+      </div>
+    </a>
+  
+  
+    <a href="/en/2021/09/15/LeetCode-weekly-contest-258/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">LeetCode weekly contest 258</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!---
+
+-->
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2021/09/22/LeetCode-weekly-contest-259/" data-title="LeetCode weekly contest 259" data-url="https://youngforest.github.io/en/en/2021/09/22/LeetCode-weekly-contest-259/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"youngforest"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/en/categories/Investment/">Investment</a></li><li class="category-list-item"><a class="category-list-link" href="/en/categories/Ireland/">Ireland</a></li><li class="category-list-item"><a class="category-list-link" href="/en/categories/LeetCode/">LeetCode</a></li><li class="category-list-item"><a class="category-list-link" href="/en/categories/Programming/">Programming</a></li><li class="category-list-item"><a class="category-list-link" href="/en/categories/Tech-Sharing/">Tech Sharing</a></li><li class="category-list-item"><a class="category-list-link" href="/en/categories/interview/">interview</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Blog/" rel="tag">Blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Bonds/" rel="tag">Bonds</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/C/" rel="tag">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Competitive-Programming/" rel="tag">Competitive Programming</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Dublin/" rel="tag">Dublin</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/France-visa/" rel="tag">France visa</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Hennge/" rel="tag">Hennge</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/IB/" rel="tag">IB</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Ireland/" rel="tag">Ireland</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Life/" rel="tag">Life</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Schengen/" rel="tag">Schengen</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Side-Project/" rel="tag">Side Project</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/Windows/" rel="tag">Windows</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/hash/" rel="tag">hash</a></li><li class="tag-list-item"><a class="tag-list-link" href="/en/tags/unordered-map/" rel="tag">unordered_map</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/en/tags/Blog/" style="font-size: 15px;">Blog</a> <a href="/en/tags/Bonds/" style="font-size: 10px;">Bonds</a> <a href="/en/tags/C/" style="font-size: 10px;">C++</a> <a href="/en/tags/Competitive-Programming/" style="font-size: 20px;">Competitive Programming</a> <a href="/en/tags/Dublin/" style="font-size: 10px;">Dublin</a> <a href="/en/tags/France-visa/" style="font-size: 10px;">France visa</a> <a href="/en/tags/Hennge/" style="font-size: 10px;">Hennge</a> <a href="/en/tags/IB/" style="font-size: 10px;">IB</a> <a href="/en/tags/Ireland/" style="font-size: 10px;">Ireland</a> <a href="/en/tags/Life/" style="font-size: 10px;">Life</a> <a href="/en/tags/Schengen/" style="font-size: 10px;">Schengen</a> <a href="/en/tags/Side-Project/" style="font-size: 10px;">Side Project</a> <a href="/en/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/en/tags/hash/" style="font-size: 10px;">hash</a> <a href="/en/tags/unordered-map/" style="font-size: 10px;">unordered_map</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2024/01/">January 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2023/09/">September 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2023/04/">April 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2022/12/">December 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2022/03/">March 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2021/12/">December 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2021/10/">October 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2021/09/">September 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2020/05/">May 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/en/2024/01/12/Actions-After-Address-Change-in-Ireland/">Actions After Address Change in Ireland</a>
+          </li>
+        
+          <li>
+            <a href="/en/2023/09/20/Ireland-France-visa-monitor/">Ireland France visa monitor</a>
+          </li>
+        
+          <li>
+            <a href="/en/2023/04/01/IB-Bonds-Tutorial/">IB Bonds Tutorial</a>
+          </li>
+        
+          <li>
+            <a href="/en/2022/12/17/Windows-Dev-Improvement/">Windows Development Environment improvement tips From a Microsoft Employee</a>
+          </li>
+        
+          <li>
+            <a href="/en/2022/03/19/Hennge-challenge-3/">Hennge challenge 3</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 YoungForest<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/en/" class="mobile-nav-link">Home</a>
+  
+    <a href="/en/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/en/%20%7C%7C%20fa%20fa-home" class="mobile-nav-link">home</a>
+  
+    <a href="/en/about/%20%7C%7C%20fa%20fa-user" class="mobile-nav-link">about</a>
+  
+    <a href="/en/tags/%20%7C%7C%20fa%20fa-tags" class="mobile-nav-link">tags</a>
+  
+    <a href="/en/categories/%20%7C%7C%20fa%20fa-th" class="mobile-nav-link">categories</a>
+  
+    <a href="/en/archives/%20%7C%7C%20fa%20fa-archive" class="mobile-nav-link">archives</a>
+  
+    <a href="https://youngforest.github.io/ || fa fa-language" class="mobile-nav-link">中文</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/en/fancybox/jquery.fancybox.css">
+
+  
+<script src="/en/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/en/js/script.js"></script>
+
+
+  </div>
+</body>
+</html>
