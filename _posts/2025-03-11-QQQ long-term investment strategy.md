@@ -93,5 +93,5 @@ sell daily 0.3% higher than open price OTM covered call within the first 5 minut
 
 - Using SPY from 1993 to 2018 as an example. The most upside and downside happened in pre-market and post-market.
 
-![img_3.png](img_3.png)
+![img_3.png](../img/qqq/img_3.png)
 
