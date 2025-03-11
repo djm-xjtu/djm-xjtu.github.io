@@ -21,7 +21,7 @@ sell daily 0.3% higher than open price OTM covered call within the first 5 minut
     - green line is the qqq return without sell calls
     - orange line is the sell call net premium return
 
-![benchmark.png](https://github.com/djm-xjtu/djm-xjtu.github.io/blob/master/img/qqq/benchmark.png)
+![benchmark.png](https://raw.githubusercontent.com/djm-xjtu/djm-xjtu.github.io/master/img/qqq/benchmark.png)
 
 ## Thinking
 - You could see the power of reinvest of call premium into qqq stock.
