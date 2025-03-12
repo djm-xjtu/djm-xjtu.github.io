@@ -2,7 +2,7 @@
 layout:     post
 title:      QQQ long-term investment strategy
 subtitle:   investment
-date:       2025-03-12
+date:       2025-03-11
 author:     Jiaming Deng
 header-img: img/post-bg-map.jpg
 catalog: true
